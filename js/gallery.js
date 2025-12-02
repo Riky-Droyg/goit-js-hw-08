@@ -54,11 +54,11 @@ const NewImages = images.reduce((previousValue, element) => {
 		`<li class="gallery-item">
 		<a
 			class="gallery-link"
-			href=${element.preview}
+			href=${element.original}
 		>
 			<img
 				class="gallery-image"
-				src=${element.original}
+				src=${element.preview}
 				data-source=${element.original}
 				alt=${element.description}
 			/>
